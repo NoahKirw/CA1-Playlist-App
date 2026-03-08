@@ -1,0 +1,14 @@
+{{> menu id="dashboard"}}
+
+<section class="ui segment">
+  <h2>{{collection.title}}</h2>
+
+  {{#each collection.items}}
+    <div class="ui segment">
+      <h4>{{name}}</h4>
+      <p>{{description}}</p>
+    </div>
+  {{/each}}
+
+  <a href="/dashboard" class="ui button">Back</a>
+</section>

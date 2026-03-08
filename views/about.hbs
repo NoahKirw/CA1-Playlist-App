@@ -1,0 +1,26 @@
+{{> menu id="about"}}
+
+<section class="ui segment">
+  <h2>About This App</h2>
+  <p>This is a simple Playlist app built using Express and Handlebars. I have posted 2 playlists in the app with songs that are part of my personal collection.</p>
+
+<div class="ui segment">
+
+  <h3>Contact</h3>
+  <p><strong>Author:</strong> {{info.author}}</p>
+  <p><strong>Email:</strong> {{info.email}}</p>
+
+  <h3>Application Info</h3>
+  <p><strong>App Name:</strong> {{info.appName}}</p>
+  <p><strong>Version:</strong> {{info.version}}</p>
+  <p><strong>Total Playlists:</strong> {{info.playlists}}</p>
+  <p><strong>Total Songs:</strong> {{info.songs}}</p>
+
+</div>
+
+<div class="ui segment">
+  <h3>Location</h3>
+  <img src="map.png" class="map-image">   
+</div>
+
+</section>

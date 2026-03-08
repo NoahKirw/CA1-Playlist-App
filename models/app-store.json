@@ -1,0 +1,16 @@
+{
+  "info": {
+    "message": 
+      "General details about the app store, such as the name, description, and version.",
+    "creators": [
+          {
+        "author": "Noah Kirwan",
+        "email": "noah@example.com",
+        "appName": "Playlist Manager",
+        "version": "1.0",
+        "playlists": 3,
+        "songs": 15
+      }
+    ]
+  }
+}
