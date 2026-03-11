@@ -1,3 +1,6 @@
+import playlistStore from "../models/playlist-store.js";
+import appStore from "../models/app-store.js";
+
 {{> menu id="dashboard"}}
 
 <section class="ui segment">
@@ -9,6 +12,6 @@
         <p>Total Songs: {{songs.length}}</p>
         <a href="/playlist/{{id}}" class="ui button">View Playlist</a>
     </div>
-    {{/each}}
+    {{/each}} 
 
 </section>
